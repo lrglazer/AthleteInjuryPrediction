@@ -1,9 +1,9 @@
 # Athlete Injury Prediction (ML)
 
-## What is this?
+## Overview
 A machine learning model that predicts athlete injury risk using training load, fatigue, and recovery data.
 
-## Why this matters
+## Motivation
 As a former student-athlete and engineer, I'm interested in using data to prevent injuries before they happen — especially in high-performance sports like golf.
 
 ## What I learned
@@ -15,12 +15,17 @@ As a former student-athlete and engineer, I'm interested in using data to preven
 ## How to run
 1. Clone repo
 2. Install dependencies:
-   pip install pandas numpy scikit-learn matplotlib
+   ```sh
+   pip install pandas numpy scikit-learn matplotlib jupyter
+   ```
 3. Run notebook:
-   jupyter notebook
+   ```sh
+   jupyter notebook Athlete_Injury_Prevention.ipynb
+   ```
 
-## Results
-Model achieved ~XX% accuracy predicting injury risk.
+## Evaluation
+
+Training and evaluation are documented in `Athlete_Injury_Prevention.ipynb`. Compare held-out results when changing the feature set or model.
 
 ## Future improvements
 - Add wearable sensor data
